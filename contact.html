@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="contact.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HouseKeeping&#8482</title>
+	<h1><a href="Artistry.html">HouseKeeping&#8482</a></h1>
+	<h2>Discover The Best Services Possible.</h2>
+</head>
+<body>
+<br>
+<ul>
+   <li><a href="#nothing">Home</a></li>
+  <li><a href="register.html">Find HouseKeepers</a></li>
+  <li><a href="about.html">Blog</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="contact.html">Help</a></li>
+  <li style="float: right"><a href="#login" onclick="document.getElementById('id01').style.display='block'">Login/Sign Up</a></li>
+</ul>
+<br>
+<br>
+	<h3>Sarnaam Musthafa</h3>
+	<h3>RA1611008010086</h3>
+	<h3>B.Tech IT</h3>
+	<h3>sarnaam@gmail.com</h3>
+	<h3>3087, Estancia Tower 3</h3>
+	<h3>SRM University</h3>
+</body>
+	
+<div id="id01" class="modal">
+  
+  <form name="myForm" class="modal-content animate" action="/action_page.php" onsubmit="return validateLogin()">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname">
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw">
+        
+      <button type="submit" class="button4" onClick="validateLogin()">Login</button>
+		
+		<a href="register.html"><button type="button"  class="button4">Sign Up</button></a>
+		<label for="uname"><b>forgot your password?</b></label>
+
+    </div>
+  </form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+function validateLogin() {
+  var x = document.forms["myForm"]["uname"].value;
+	var y=document.forms["myForm"]["psw"].value;
+  if (x == "") {
+    alert("Username must be filled out");
+    return false;
+  }
+  if (y == "") {
+    alert("Password must be filled out");
+    return false;
+  }
+}
+
+</script>
+	
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
+<footer>
+	copyright &copy; Sarnaam Musthafa 2019
+</footer>
+</html>

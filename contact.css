@@ -1,0 +1,241 @@
+a{
+	text-align: right;
+	color: beige;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+}
+h1{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	color: beige;
+}
+h2{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	color: yellowgreen;
+}
+h3{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	color: beige;
+	font-size: 30px;
+	text-decoration: none;
+}
+p{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	font-size: 30px;
+	color: beige;
+}
+body{
+	background-color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border: 2px solid #112;
+  border-radius: 8px; 
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: beige;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+	
+}
+
+li a:hover {
+  background-color: #112;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 0;
+  width: 300px;
+  height: 300px;
+  border-color: bisque;
+}
+.button{
+  background-color: black;
+  border: 2px solid #112;
+  border-radius: 8px;
+  color: greenyellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #112; /* Green */
+  color: yellowgreen;
+}
+.button2{
+  background-color: black;
+  border: 2px solid #112;
+  border-radius: 8px;
+  color: greenyellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2:hover {
+  background-color: #112; /* Green */
+  color: yellowgreen;
+}
+.button3{
+  background-color: black;
+  border: 2px solid #112;
+  border-radius: 8px;
+  color: greenyellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button3:hover {
+  background-color: #112; /* Green */
+  color: yellowgreen;
+}
+footer{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	color: white;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+	font-weight: lighter;
+	text-align: center;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.button4 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+}
+.button4:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+img.avatar {
+  width: 30%;
+  height: auto;
+  border-radius: 40%;
+  border-color: white;
+  
+}
+
+.container {
+  padding: 16px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 2%;
+}
+.close {
+  position: absolute;
+  right: 25px;
+  top: -20px;
+  color: #112;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.close:hover,
+.close:focus {
+  color: rebeccapurple;
+  cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+b{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: normal;
+}
+img.logo{
+	height: auto;
+	width: auto;
+	align-content: center;
+}
+c{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: lighter;
+}

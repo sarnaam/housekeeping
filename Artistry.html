@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HouseKeeping&#8482</title>
+	<h1><a href="Artistry.html">HouseKeeping&#8482</a></h1>
+	<h2>Discover The Best Services Possible.</h2>
+</head>
+<body>
+<br>
+<ul>
+  <li><a href="#nothing">Home</a></li>
+  <li><a href="register.html">Find HouseKeepers</a></li>
+  <li><a href="about.html">Blog</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="contact.html">Help</a></li>
+  <li style="float: right"><a href="#login" onclick="document.getElementById('id01').style.display='block'">Login/Sign Up</a></li>
+</ul>
+<br>
+<br>
+<p><img src="clean1.jpg" alt="hand" hspace="25" align="left"/><br>Explore the masterful services available around.<br><a href="pencil.html"><button class="button" onclick="">Learn More</button></a><br><br><br><br><br><br><img src="clean.jpg" alt="cat" hspace="25" align="right"/><br>Find personal HouseKeeper.<br>Enjoy the Services to the core.<br><a href="pastel.html"><button class="button button2">Learn More</button></a><br><br><br><br><br><br><img src="clean2.jpg" alt="custom" hspace="25" align="left"/><br>Contact Us.<br><a href="digital.html"><button class="button button3">Learn More</button></a></p>
+</body>
+	
+<div id="id01" class="modal">
+  
+  <form name="myForm" class="modal-content animate" action="/action_page.php" onsubmit="return validateLogin()">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname">
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw">
+        
+      <button type="submit" class="button4" onClick="validateLogin()">Login</button>
+		
+		<a href="register.html"><button type="button"  class="button4">Sign Up</button></a>
+		<label class="edits"><b>forgot your password?</b></label>
+
+    </div>
+  </form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+function validateLogin() {
+  var x = document.forms["myForm"]["uname"].value;
+	var y=document.forms["myForm"]["psw"].value;
+  if (x == "") {
+    alert("Username must be filled out");
+    return false;
+  }
+  if (y == "") {
+    alert("Password must be filled out");
+    return false;
+  }
+}
+
+</script>
+	
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
+<footer>
+	copyright &copy; Sarnaam Musthafa 2019
+</footer>
+</html>
